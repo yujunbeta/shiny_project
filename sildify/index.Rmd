@@ -16,26 +16,25 @@ mode        : standalone # {standalone, draft}
 
 ##  My Shining App
 
-![picture1](F:/yujunbeta/assets/img/my_app.png)
+![picture1](F:/coursera/Data Science/peer assignment/shiny_project/sildify/assets/img/my_app.png)
 
-
+The goal of this app is help you understand the structure of the Iris data.
 
 
 --- 
 
 ## Details about My App
-
-+ goal
-
-The goal of this app is help you understand the structure of the Iris data.
-
-+ Usage
-
++ Usage  
 You can choose the X-lab and Y-lab to draw the scatter plot of this data set.You also can color the species use the variable species.Smooth method is also applied to help you understand the relationship between each variable.
 
-+ Iris Data
-
++ Iris Data  
 This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+```{r}
+head(iris)
+
+```
+
 
 
 
